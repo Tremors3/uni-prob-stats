@@ -97,7 +97,31 @@ $$
 P(A \cap B)=P(A)P(B)
 $$
 
+e:
+
+$$
+P(A|B)=P(A)\quad\text{o}\quad P(B|A)=P(B)
+$$
+
 Il verificarsi di uno non influenza l’altro.
+
+---
+
+### Eventi dipendenti
+
+Gli eventi sono dipendenti se:
+
+$$
+P(A \cap B)\neq P(A)P(B)
+$$
+
+oppure:
+
+$$
+P(A|B)\neq P(A)\quad\text{o}\quad P(B|A)\neq P(B)
+$$
+
+Il verificarsi di uno influenza l'altro
 
 ---
 
