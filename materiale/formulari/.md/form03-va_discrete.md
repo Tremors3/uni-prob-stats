@@ -1,7 +1,6 @@
-# Formulario Probabilità
-$$\textbf{Variabili Aleatorie Discrete}$$
+# Variabili Alteatorie Discrete
 
----
+### Definizione
 
 Una variabile aleatoria discreta è proprio una funzione
 
