@@ -393,6 +393,47 @@ trova:
 
 ---
 
+> ### Funzione di ripartizione e intervalli separati
+>
+> **Nota.** Può capitare che la densità di probabilità di una variabile aleatoria sia definita su intervalli separati tra loro. In tali casi, negli intervalli in cui la densità vale $0$, la funzione di ripartizione rimane costante.
+>
+> Questo accade perché, se $f(x)=0$ in un certo intervallo, non viene accumulata nuova probabilità.
+>
+> Ad esempio, se:
+>
+> $$
+> f(x)=\begin{cases}
+> f_1(x) & -3\le x\le-2 \\
+> 0 & -2<x<2 \\
+> f_2(x) & 2\le x\le3
+> \end{cases}
+> $$
+>
+> allora la funzione di ripartizione:
+>
+> $$
+> F(x)=\int_{-\infty}^{x} f(y)\,dy
+> $$
+>
+> cresce nel primo intervallo $[-3,-2]$, rimane costante nell'intervallo $(-2,2)$ e ricomincia a crescere nell'intervallo $[2,3]$.
+>
+> In particolare:
+>
+> $$
+> F(x)=F(-2)
+> \qquad\text{per } -2<x<2
+> $$
+>
+> perché in quell'intervallo la densità è nulla e quindi non si accumula ulteriore probabilità.
+
+> **Nota.** Se una variabile aleatoria è assolutamente continua e si conosce la funzione di ripartizione $F(x)$, allora la densità di probabilità si ottiene derivando $F(x)$:
+>
+> $$f(x)=F'(x)$$
+>
+> Se $F(x)$ è definita a tratti, la derivata va calcolata separatamente in ciascun intervallo.
+
+---
+
 > ### Trovare il fattore $\mathbf c$ di normalizzazione
 >
 > **Nota.** Per trovare il fattore di normalizzazione $c$ di una densità di probabilità si impone sempre che la probabilità totale sia uguale a $1$:
